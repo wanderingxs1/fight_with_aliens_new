@@ -1,0 +1,4 @@
+# my personal ignore files
+/.idea/
+/personal_token_for_login_github/
+/pycache/
