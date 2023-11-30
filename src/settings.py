@@ -1,3 +1,6 @@
+import pygame.image
+
+
 class Settings:
     """存储游戏《外星人入侵》中所有设置的类"""
 
@@ -9,3 +12,12 @@ class Settings:
         self.bg_color = (230, 230, 230)
         # 标题设置
         self.caption = "Alien Invasion"
+        # 标题图片
+        self.caption_image = pygame.image.load("images/github头像.jpg")
+        # 飞船设置
+        self.ship_speed = 0.05
+        # 子弹设置
+        self.bullet_speed = 0.2
+        self.bullet_width = 3
+        self.bullet_height = 15
+        self.bullet_color = (60, 60, 60)
