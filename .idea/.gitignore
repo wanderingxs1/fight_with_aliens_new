@@ -7,5 +7,6 @@
 /dataSources/
 /dataSources.local.xml
 # my personal ignore files
-/.idea/
-/personal_token_for_login_github/
+../.idea/
+../personal_token_for_login_github/
+../__pycache__/
